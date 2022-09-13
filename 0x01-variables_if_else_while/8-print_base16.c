@@ -11,12 +11,15 @@
 
 int main(void)
 {
-	int x,n;
+	int x,n,a,f;
 
 	for (n =0; n<=9; n++)
+	{
 		putchar(n);
+	}
 	for (x = a; x<=f; x++)
-		putchar(x);
+	{	putchar(x);
 		putchar('\n');
+	}
 	return(0);
 }
