@@ -1,13 +1,13 @@
 #include <stdio.h>
 
 /**
- * main - Entry point
+ * main - Entry point.
  *
- * description - prints all numbers of base 16 in lowercase
+ * description - prints all numbers of base 16 in lowercase.
  *
- * Return: Always(0) success
+ * Return: Always(0) success.
  *
- * */
+ */
 
 int main(void)
 {
@@ -15,7 +15,7 @@ int main(void)
 	char x;
 
 	for (n=0 ; n < 10 ; n++)
-		putchar((n % 10) + '0');
+		putchar(n % 10);
 
 	for (x='a' ; x <= 'f' ; x++)
 	       putchar(x);
