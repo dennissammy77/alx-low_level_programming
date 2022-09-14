@@ -1,16 +1,15 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
-/* more headers goes there */
 
 /**
- * main-Entry point
+ * main - Entry point
  *
  * description - last digit
  *
  * Return: Always(0) success
  *
- * */
+ */
 
 int main(void)
 {
