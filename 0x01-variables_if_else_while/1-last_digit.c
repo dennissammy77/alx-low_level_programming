@@ -3,11 +3,11 @@
 #include <time.h>
 
 /**
-  * main - Entry point
+  * main - Entry point.
   *
-  * description - last digit
+  * description - last digit.
   *
-  * Return: Always(0) success
+  * Return: Always(0) success.
   *
   */
 
