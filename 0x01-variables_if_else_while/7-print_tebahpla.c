@@ -1,13 +1,13 @@
 #include <stdio.h>
 
 /**
- * main-Entry point
+ * main - Entry point.
  *
- * description - prints lowercase aplhabet in reverse,followed by a new line
+ * description - prints lowercase aplhabet in reverse,followed by a new line.
  *
- * Return: Always(0) success
+ * Return: Always(0) success.
  *
- * */
+ */
 
 int main(void)
 {
