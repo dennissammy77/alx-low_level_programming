@@ -7,7 +7,7 @@
  *
  * description - check if number is a negative or positive number
  *
- * Return : Always (0) success
+ * return : Always (0) success
  *
  */
 

@@ -2,12 +2,12 @@
 #include <stdlib.h>
 #include <time.h>
 
-/**
+/*
  * main - Entry point
  *
  * description - last digit
  *
- * Return: Always(0) success
+ * return: Always(0) success
  *
  */
 
