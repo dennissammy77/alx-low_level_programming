@@ -19,10 +19,10 @@ int main(void)
 				{
 					putchar((n % 10) + '0');
 					putchar((x % 10) + '0');
+				
+					putchar(',');
+					putchar(' ');
 				}
-		
-			putchar(',');
-			putchar(' ');
 		}
 	putchar('\n');
 
