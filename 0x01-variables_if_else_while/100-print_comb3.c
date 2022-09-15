@@ -19,9 +19,12 @@ int main(void)
 				{
 					putchar((n % 10) + '0');
 					putchar((x % 10) + '0');
-				
-					putchar(',');
-					putchar(' ');
+			
+					if ( n != 98 &&	x != 99)
+					{
+						putchar(',');
+						putchar(' ');
+					}
 				}
 		}
 	putchar('\n');
