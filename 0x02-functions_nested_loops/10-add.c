@@ -10,7 +10,9 @@ int add(int n,int x)
 {
 	int result;
 
-	result = add(n, x);
+	result = n + x;
+
 	_putchar(result);
+
 	return (0);
 }
