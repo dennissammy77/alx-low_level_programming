@@ -1,21 +1,9 @@
-#include  <unistd.h>
-
-/**
- * _putchar - writes the character c to stdout,
- * @c: The character to print,
- *
- * Return: On success 1.
- *
- */
-int _putchar(char c)
-{
-	return (write1, &c, 1));
-}
-
 #include "main.h"
 
 /**
  * main - Entry point,
+ *
+ * description- Prints _putchar followe by a new line.
  *
  * Return: returns 0.
  *
