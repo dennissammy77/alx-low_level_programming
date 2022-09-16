@@ -14,5 +14,5 @@ int add(int n,int x)
 
 	_putchar(result);
 
-	return (0);
+	return (result);
 }
