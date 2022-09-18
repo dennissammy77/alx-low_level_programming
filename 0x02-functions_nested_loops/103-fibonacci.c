@@ -1,5 +1,13 @@
 #include <stdio.h>
 
+/**
+ * main - Entry point,
+ *
+ * description - prints sum of fibonnacci numbers.
+ *
+ * Return -: Always(0) success.
+ */
+
 int main(void)
 {
 		float tot_sum;
