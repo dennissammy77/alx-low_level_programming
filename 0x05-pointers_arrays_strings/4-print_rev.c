@@ -2,12 +2,13 @@
 
 /**
  * print_rev - prints string.
- * @s - string.
+ * @s: string.
  */
 
 void print_rev(char *s)
 {
 	int count = 0;
+
 	while (*s != '\0')
 	{
 		s++;
@@ -20,5 +21,6 @@ void print_rev(char *s)
 		_putchar(*s);
 		count--;
 	}
+
 	_putchar('\n');
 }
