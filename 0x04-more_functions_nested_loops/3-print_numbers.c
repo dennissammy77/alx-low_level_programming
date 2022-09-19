@@ -1,11 +1,10 @@
 #include "main.h"
 
 /**
- * print_numbers - Entry point.
- *
- * description - prints numbers from 0 to 9
- *
- */
+ *  * print_numbers - Print numbers between 0 to 9 incl.
+ *   *
+ *    * Return: Void.
+ *     */
 
 void print_numbers(void)
 {

@@ -1,9 +1,8 @@
 #include "main.h"
 
 /**
- * print_most_numbers - Entry point.
- *
- * description - print most numbers from 0 to 9 but not 2 and 4.
+ * print_most_numbers - print most numbers from 0 to 9 but not 2 and 4.
+ * Return: void.
  */
 
 void print_most_numbers(void)
@@ -14,7 +13,7 @@ void print_most_numbers(void)
 	{
 		if ((num != 2) || (num != 4))
 		{
-			_putchar((num % 10) + '0');
+			_putchar(num + '0');
 		}
 	}
 	_putchar('\n');
