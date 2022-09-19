@@ -3,7 +3,7 @@
 /**
  * _atoi - converts a string to an integer.
  * @s: pointer.
- * Return int.
+ * Return: int.
  */
 int _atoi(char *s)
 {
@@ -12,7 +12,7 @@ int _atoi(char *s)
 	int sig = -1;
 	int brk = 0;
 
-	for (i =0; s[i] != '\0'; i++)
+	for (i = 0; s[i] != '\0'; i++)
 	{
 		if (s[i] == '-')
 			sig = sig * -1;

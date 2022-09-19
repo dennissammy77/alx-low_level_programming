@@ -1,8 +1,12 @@
-#include "main.h"
+#include <stdio.h>
+#include <stdlib.h>
+#include <time.h>
 
 /**
  * main - generates random passwords.
+ * Return: Always 0 success.
  */
+
 int main(void)
 {
 	int i, sum, n;
