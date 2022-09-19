@@ -29,10 +29,10 @@ int main(void)
 
 		if (num != 100)
 		{
-			printf(' ');
+			printf(" ");
 		}
 	}
-	printf('\n');
+	printf("\n");
 
 	return (0);
 }
