@@ -3,11 +3,9 @@
 #include <time.h>
 
 /**
- * main - Entry point
+ * main - check if number is a negative or positive number.
  *
- * description - check if number is a negative or positive number
- *
- * return : Always (0) success
+ * return : Always (0) success.
  *
  */
 
@@ -17,12 +15,12 @@ int main(void)
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
-	if (n>0)
-		printf("%d is positive\n",n);
+	if (n > 0)
+		printf("%d is positive\n", n);
 	else
-		if (n==0)
-			printf("%d is zero\n",n);
+		if (n == 0)
+			printf("%d is zero\n", n);
 		else
-			printf("%d is negative\n",n);
-	return(0);
+			printf("%d is negative\n", n);
+	return (0);
 }

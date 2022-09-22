@@ -10,10 +10,12 @@
  */
 int main(void)
 {
-	int n,x;
+	int n, x;
 
-	for (n =0; n <= 98; n++)
-		for (x = n+1; x < 99; x++)
+	for (n = 0; n <= 98; n++)
+	{
+		for (x = n + 1; x < 99; x++)
+		{
 			putchar((n /10) + '0');
 			putchar((n % 10) +'0');
 			putchar(' ');
@@ -24,7 +26,9 @@ int main(void)
 				continue;
 			putchar(',');
 			putchar(' ');
+		}
+	}
 	putchar('\n');
 
-	return(0);
+	return (0);
 }

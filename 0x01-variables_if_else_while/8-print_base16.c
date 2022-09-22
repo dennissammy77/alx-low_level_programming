@@ -14,14 +14,16 @@ int main(void)
 	int n;
 	char x;
 
-	for (n=0 ; n < 10 ; n++)
-		putchar((n % 10) + '0' );
-
-	for (x='a' ; x <= 'f' ; x++)
-	       putchar(x);
-
+	for (n = 0 ; n < 10 ; n++)
+	{
+		putchar((n % 10) + '0');
+	}
+	for (x = 'a' ; x <= 'f' ; x++)
+	{
+	  	putchar(x);
+	}
 	putchar('\n');
 
-	return(0);
+	return (0);
 }
 
