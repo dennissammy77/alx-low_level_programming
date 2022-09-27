@@ -6,7 +6,7 @@
  * @*needle: pointer to substring.
  * Return - pointer to located substring.
  */
-char *_strstr(char *haystack,cahr *needle)
+char *_strstr(char *haystack,char *needle)
 {
 	int i;
 
