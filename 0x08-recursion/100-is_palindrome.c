@@ -18,7 +18,7 @@ int _str_len_recursion(char *s)
  * pfunc - palindrome.
  * @s: pointer to string.
  * @i: position of string.
- * Return : 0 success.
+ * Return : 0 success - pfunc.
  */
 int pfunc(char *s, int i)
 {
@@ -35,7 +35,7 @@ int pfunc(char *s, int i)
 /**
  * is_palindrome - palindrome.
  * @s: pointer to string.
- * Return : pfunc.
+ * Return : pfunc && is_palindrome.
  */
 int is_palindrome(char *s)
 {

@@ -4,7 +4,7 @@
  * _sqrt - sqrt_recursion.
  * @n: integer.
  * @i: int.
- * Return : _sqrt.
+ * Return: _sqrt.
  */
 int _sqrt(int n, int i)
 {
