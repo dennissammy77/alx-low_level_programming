@@ -1,10 +1,10 @@
 #include "main.h"
 
-/**                                              
- * _sqrt - sqrt_recursion.                                          
- * @n: integer.                                                     
- * @i: int.                                                         
- * Return : sqrt.                                                   
+/**
+ * _sqrt - sqrt_recursion.
+ * @n: integer.
+ * @i: int.
+ * Return : _sqrt.
  */
 int _sqrt(int n, int i)
 {
@@ -29,5 +29,5 @@ int _sqrt(int n, int i)
  */
 int _sqrt_recursion(int n)
 {
-	return (_sqrt(n,1));
+	return (_sqrt(n, 1));
 }

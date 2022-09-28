@@ -41,6 +41,6 @@ int pfunc(char *s,int i)
  */
 int is_palindrome(char *s)
 {
-	int len = _strlen_recursion(s);
+	int len = _str_len_recursion(s);
 	return (pfunc(s, len - 1));
 }

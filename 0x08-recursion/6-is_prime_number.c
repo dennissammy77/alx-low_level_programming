@@ -12,7 +12,7 @@ int divisor(int n,int x)
 	{
 		return (0);
 	}
-	else if ((m / 2) > n)
+	else if ((x / 2) > n)
 	{
 		return (divisor((n + 2), x));
 	}
