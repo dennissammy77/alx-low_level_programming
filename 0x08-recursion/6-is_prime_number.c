@@ -8,13 +8,13 @@
  */
 int divisor(int n,int x)
 {
-	if (x % n == 0)
+	if ((x % n) == 0)
 	{
 		return (0);
 	}
-	else if
+	else if ((m / 2) > n)
 	{
-		return (divisor(n + 2, x));
+		return (divisor((n + 2), x));
 	}
 	else
 	{
