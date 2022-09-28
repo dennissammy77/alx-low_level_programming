@@ -25,7 +25,7 @@ int _sqrt(int n, int i)
 /**
  * _sqrt_recursion - retuens the natural square root of a number.
  * @n: integer.
- * Return: int.
+ * Return: _sqrt of int.
  */
 int _sqrt_recursion(int n)
 {

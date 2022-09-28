@@ -28,7 +28,7 @@ int divisor(int n,int x)
  * Return : 0 if not an integer otherwise 1.
  */
 
-int is_prime_numbers(int n)
+int is_prime_number(int n)
 {
 	if ((!(n % 2) && n != 2) || n < 2)
 	{
