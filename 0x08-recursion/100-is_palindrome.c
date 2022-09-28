@@ -5,7 +5,7 @@
  * @s: pointer to string.
  * Return: recursion.
  */
-int _str_lenrecursion(char *s)
+int _str_len_recursion(char *s)
 {
 	if (!*s)
 	{
