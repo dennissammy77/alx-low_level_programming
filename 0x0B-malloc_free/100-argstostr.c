@@ -4,7 +4,7 @@
 /**
  * argstostr - concatenates all arguments.
  * @ac: argument count.
- * @av: argument vector.
+ * @av: argument vector
  * Return: pointer of array.
  */
 char *argstostr(int ac,char **av)
@@ -18,7 +18,7 @@ char *argstostr(int ac,char **av)
 	}
 	for (x = y = 0;y < ac;y++)
 	{
-		if (av[y] == NULL);
+		if (av[y] == NULL)
 		{
 			return (NULL);
 		}

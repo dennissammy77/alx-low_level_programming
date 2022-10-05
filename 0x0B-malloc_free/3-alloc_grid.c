@@ -7,17 +7,17 @@
  * @length: length pf array.
  * Retrun: pointer of array.
  */
-int **alloc_grid(int width, int length)
+int **alloc_grid(int width, int height)
 {
 	int **grid;
-	int x,y,z;
+	int x,y;
 
 	if (width < 1 || height < 1)
 	{
 		return (NULL);
 	}
 
-	gid = malloc(height * sizeof(int *));
+	grid = malloc(height * sizeof(int *));
 
 	if (grid == NULL)
 	{
@@ -25,7 +25,7 @@ int **alloc_grid(int width, int length)
 		return (NULL);
 	}
 
-	for (z = 0; x < height; x++)
+	for (x = 0; x < height; x++)
 	{
 		grid[x] = malloc(width * sizeof(int));
 		if (grid[x] == NULL)
