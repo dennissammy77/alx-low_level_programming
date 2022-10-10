@@ -6,7 +6,7 @@
  * @argv:array of command arguments.
  * Return:0-success.
  */
-int main(int argc,char *agv[])
+int main(int argc,char *argv[])
 {
 	if (argc != 3)
 	{
