@@ -9,7 +9,7 @@
  * @owner:owner.
  */
 
-void int_dog(struct dog *d,char *name, char *owner,float *age)
+void init_dog(struct dog *d,char *name, char *owner,float age)
 {
 	if (d == NULL)
 	{
