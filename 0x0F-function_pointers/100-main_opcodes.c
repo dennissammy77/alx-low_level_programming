@@ -30,12 +30,12 @@ int main(int argc,char *argv[])
 
 	for (i = 0;i < bytes;i++)
 	{
-		if (i == bytes - 1)
+		if (i == (bytes - 1))
 		{
 			printf("%02hhx\n",array[i]);
 			break;
 		}
-		printf("%02hhx\n",array[i]);
+		printf("%02hhx",array[i]);
 	}
 	return (0);
 }
