@@ -5,7 +5,7 @@
  * @s:operator given.
  * Return: pointer to function.
  */
-int (*get_op_func(cahr *s))(int, int)
+int (*get_op_func(char *s))(int, int)
 {
 	op_t ops[] = {
 		{"+", op_add},
