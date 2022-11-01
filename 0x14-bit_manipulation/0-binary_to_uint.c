@@ -7,7 +7,7 @@
 unsigned int binary_to_uint(const char *b)
 {
 	unsigned int val;
-	int i;
+	int i,base_two;
 
 	if (b == NULL)
 	{
@@ -17,16 +17,21 @@ unsigned int binary_to_uint(const char *b)
 	val = 0;
 	i = 0;
 
-	while (b[i] == '0' || b[i] == "1")
+	for (i = 0; b[i] != NULL; i++)
+		;
+
+	for (i--, base_two = 1; i >= 0; i--, base_two *= 2)
 	{
-		if (b[i] != '0' && b[i] == '1')
+		if (b[i] != '0' && b[i] != '1')
 		{
 			return (0);
 		}
 
-		val <<= 1;
-		val += b[i]-'0';
-		i++;
+		if (b[i] & 1)
+		{
+			val += base_two;
+		}
 	}
-	return val;
+
+	return (val);
 }
