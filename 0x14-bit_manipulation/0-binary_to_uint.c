@@ -6,8 +6,8 @@
   * Return: converted number or 0; if there is one or more chars in b.	*/
 unsigned int binary_to_uint(const char *b)
 {
-	unsigned int val;
-	int i,base_two;
+	unsigned int val,mult;
+	int i;
 
 	if (!b)
 	{
@@ -19,17 +19,15 @@ unsigned int binary_to_uint(const char *b)
 	for (i = 0; b[i] != NULL; i++)
 		;
 
-	for (i--, base_two = 1; i >= 0; i--, base_two *= 2)
+	for (i--; i >= 0; i--)
 	{
 		if (b[i] != '0' && b[i] != '1')
 		{
 			return (0);
 		}
 
-		if (b[i] & 1)
-		{
-			val += base_two;
-		}
+		val += (b[i] - '0') * mult;
+		mult *= 2;
 	}
 
 	return (val);
